@@ -1,0 +1,4 @@
+se debe crear las siguientes clases con sus atributos y mètodos: 
+1- clase vehiculo, atributos privados: patente, hora ingreso. constructor que recibe los dos parametros, metodo estacionar que devuelve true o false, get patente devuelve la patente, sacar que recibe patente y devuelve importe, traer todos que trae el listado de vehiculos estacionados, guardar todos (recibe el listado de vehiculos), retorna true o false.
+2- clase facturados, atributos privados: vehiculo, hora salida, importe. constructor que recibe un vehiculo y una hora de salida, un metodo traertodos que devuelve los facturados y guardarTodos retorna true y recibe un listado de facturados
+3- la clase uitablas, dos metodos crearTablaEstacionados y crearTablaFacturados

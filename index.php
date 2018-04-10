@@ -1,11 +1,12 @@
 <?php
 
 require"clases/estacionamiento.php";
+require"clases/uitablas.php";
 $path = "gestion.php";
 
 estacionamiento::CrearJSAutocompletar();
-estacionamiento::CrearTablaFacturado();
-estacionamiento::CrearTablaEstacionados();
+uitablas::crearTablasFacturados();
+uitablas::crearTablaEstacionados();
 
 ?>
 <!doctype html>
